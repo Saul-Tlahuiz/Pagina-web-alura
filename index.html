@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="es"> <!-- Aqui vamos a escoger el idioma, en nuestro caso es español-->>
+
+    <head>
+        <meta charset="UTF-8"> <!-- Este codigo nos ayuda a configurar el diccionario del lenguaje que estemos trabajando -->
+        <meta name = "viewport" content="width=device-width">
+        <title>Barbería Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css"/> <!--Con esto referenciamos al archivo css de la misma carpeta donde estamos trabajando para agregar los estilos de la pagina-->
+    </head>
+        
+    <body>
+
+        <header>
+
+            <div class="box">
+                <h1> <image src="imagenes/logo.png" alt = "Logo de la barberia"></h1>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>  <!--Referenciamos a la primer pagina que creamos -->
+                            <li><a href="productos.html">Productos</a></li>
+                            <li><a href="contacto.html">Contacto</a></li> <!--Aun no definimos el link para contacto por lo que lo referenciamos a google-->
+                        </ul>
+                    </nav> 
+            </div>
+        </header>
+
+        <image class ="banner" src="banner/banner.jpeg">
+
+            <main>
+                <section class="main">
+
+                    <h1 class="titulo-principal">Sobre la Barbería Alura</h1>
+
+                    <img  class="utensilios" src="imagenes/utensilios[1].jpg" alt="Utensilios de barbero">
+    
+                    <p> Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el mercado lo que hay de mejor para su cabello y barba.
+                    Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente. </p>
+                    <p id="mision"> <em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes"</strong>.</em></p>
+                    <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y 
+                    movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. 
+                    El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes. </p> 
+                </section>            
+
+                <section class="map">
+                    <h3 class="titulo-principal"> Donde nos ubicamos</h3>
+                    <p>Nos Ubicamos cerca de Ciudad Universitaria</p>
+                    <div class="mapa-contenido">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.159254803691!2d-99.18694252633858!3d19.31889454430533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce00071fca0bad%3A0x9989fa5b4f526717!2sUniversidad%20Nacional%20Aut%C3%B3noma%20de%20M%C3%A9xico!5e0!3m2!1ses-419!2smx!4v1710653065157!5m2!1ses-419!2smx" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </section>
+
+                <section class="diferenciales">
+    
+                    <h2 class="titulo-principal">¿Que nos distingue de otras barberias?</h2>
+
+                    <div class="contenido-diferenciales">
+                        <ul class="lista-diferenciales"> 
+                            <li class="items"> La atención que brindamos a nuestros clientes es la mejor.</li>
+                            <li class="items"> Contamos con un espacio que brinda una experiencia unica a los clientes.</li>
+                            <li class="items"> Equipo de profesionales </li>
+                            <li class="items"> Localización </li>
+                            <li class="items"> Limpieza </li>
+                            <li class="items"> Productos de calidad </li>
+                        </ul><img src="diferenciales/diferenciales.jpg" class="imagen-diferenciales">
+                    </div>
+                    <div class="video">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/zXcw3Cyc2GM?si=6c4QyUomFoE-TLCD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                
+                    </div>
+                </section>
+                
+            </main>
+
+             <footer>
+                <img src = "imagenes/logo-blanco.png" alt = "Logo de la barberia">
+                <p class="copyright">&copy Copyright Barberia Alura 2024</p>
+            </footer>
+
+    </body>
+
+</html>
+
